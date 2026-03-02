@@ -1,0 +1,124 @@
+body{
+    background-color: #e7e7e7;
+    font-family: Arial, sans-serif;
+}
+
+.titulo-principal{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card-me{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.foto-perfil{
+    width: 300px;
+    height: auto;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.titulos-secundarios{
+    color: blue;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.card-me ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+    background-color: #e2e2e2;
+    border-radius: 8px;
+}
+
+.card-me li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.card-me li strong {
+    color: #007bff;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.lista-metas {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.lista-metas li {
+    background-color: white;
+    border-left: 5px solid blue;
+    margin-bottom: 10px;
+    padding: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0 10px 10px 0;
+    transition: transform 0.3s;
+}
+
+.lista-metas li:hover {
+    transform: translateX(10px);
+}
+
+.lista-metas li strong {
+    color: blue;
+    display: inline;
+    margin-right: 5px;
+}
+
+.connect-section {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 2px dashed #007bff;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-button {
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-weight: bold;
+    color: white;
+    transition: transform 0.2s, box-shadow 0.2s;
+    min-width: 120px;
+}
+
+.github {
+    background-color: #24292e;
+}
+
+.instagram {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.email {
+    background-color: #d44638;
+}
+
+.social-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
